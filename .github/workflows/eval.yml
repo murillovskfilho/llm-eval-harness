@@ -1,0 +1,31 @@
+name: eval
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  offline:
+    name: typecheck, self-test and replay (no API key, no cost)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - name: Self-test (oracle 100%, null 0%, missing recordings are errors)
+        run: npm run selftest
+      - name: Replay recorded responses for both models
+        if: hashFiles('cassettes/**/*.json') != ''
+        env:
+          EVAL_MODE: replay
+        run: |
+          npx tsx src/run.ts --variant baseline --model claude-haiku-5-5 --out ci-replay
+          npx tsx src/run.ts --variant v1 --model claude-sonnet-5-5 --out ci-replay
+          test ! -s ci-replay/baseline/errors.jsonl && test ! -s ci-replay/v1/errors.jsonl

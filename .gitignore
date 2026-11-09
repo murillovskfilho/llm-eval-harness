@@ -1,0 +1,6 @@
+node_modules/
+.selftest/
+.env
+evals/**/report.html
+evals/**/state.json
+evals/**/trajectory/

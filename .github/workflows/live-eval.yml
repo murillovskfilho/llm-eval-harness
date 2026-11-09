@@ -1,0 +1,47 @@
+name: live-eval
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # weekly (Monday): catches model and prompt drift against the real API
+  workflow_dispatch:
+
+concurrency:
+  group: live-eval
+  cancel-in-progress: false
+
+jobs:
+  live:
+    name: run both models against the API
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - name: Skip when no API key is configured
+        if: env.ANTHROPIC_API_KEY == ''
+        run: echo "::notice::ANTHROPIC_API_KEY secret is not set; skipping the live run."
+      - uses: actions/checkout@v4
+        if: env.ANTHROPIC_API_KEY != ''
+      - uses: actions/setup-node@v4
+        if: env.ANTHROPIC_API_KEY != ''
+        with:
+          node-version: 22
+          cache: npm
+      - if: env.ANTHROPIC_API_KEY != ''
+        run: npm ci
+      - name: Run the eval live (nothing is recorded or committed)
+        if: env.ANTHROPIC_API_KEY != ''
+        env:
+          EVAL_MODE: live
+        run: |
+          mkdir -p live && cp evals/logistics-support/_state.json live/ && mkdir -p live/v1 && cp evals/logistics-support/v1/change.md live/v1/
+          npx tsx src/run.ts --variant baseline --model claude-haiku-5-5 --out live
+          npx tsx src/run.ts --variant v1 --model claude-sonnet-5-5 --out live
+          npx tsx src/summary.ts live >> "$GITHUB_STEP_SUMMARY"
+          node tools/build-report-lite.mjs live/
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ANTHROPIC_API_KEY != ''
+        with:
+          name: live-eval
+          path: live
+          retention-days: 30

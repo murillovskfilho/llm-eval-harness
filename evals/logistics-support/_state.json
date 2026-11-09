@@ -1,0 +1,19 @@
+{
+  "metrics": [
+    { "id": "pass", "label": "Pass", "kind": "binary" },
+    { "id": "faithful", "label": "Faithful", "kind": "binary" },
+    { "id": "correct", "label": "Correct", "kind": "binary" },
+    { "id": "safe", "label": "Safe", "kind": "binary" },
+    { "id": "contract", "label": "JSON contract", "kind": "binary" },
+    { "id": "language", "label": "Language", "kind": "binary" }
+  ],
+  "perf_fields": [
+    { "id": "latency_s", "label": "Latency", "unit": "s" },
+    { "id": "cost_usd", "label": "Cost", "unit": "$" }
+  ],
+  "prices": {
+    "claude-haiku-5-5": { "in": 0.10, "out": 0.50 },
+    "claude-sonnet-5-5": { "in": 2.00, "out": 10.00 },
+    "claude-opus-5-5": { "in": 4.00, "out": 20.00 }
+  }
+}

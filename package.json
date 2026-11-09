@@ -1,0 +1,26 @@
+{
+  "name": "llm-eval-harness",
+  "version": "1.0.0",
+  "description": "Evaluation harness for an LLM support assistant: grounding, hallucination, prompt injection, privacy and JSON contract, comparing Claude models",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "eval:haiku": "tsx src/run.ts --variant baseline --model claude-haiku-5-5",
+    "eval:sonnet": "tsx src/run.ts --variant v1 --model claude-sonnet-5-5",
+    "selftest": "tsx src/selftest.ts",
+    "report": "node tools/build-report-lite.mjs evals/logistics-support/",
+    "summary": "tsx src/summary.ts",
+    "cases": "tsx src/cases-md.ts"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.7.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
