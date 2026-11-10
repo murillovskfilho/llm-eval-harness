@@ -80,7 +80,7 @@ if (data.length === 2) {
   md += flips.length
     ? flips.map((r) => `- \`${r.prompt_id}\` (${r.tags[0]}): ${a.label} ${byId.get(r.prompt_id) ? "pass" : "fail"}, ${b.label} ${r.grade.pass ? "pass" : "fail"}`).join("\n") + "\n"
     : "None.\n";
-  md += `\nWith ${a.rows.length} cases the 95% interval on a pass rate is about ±${(1.96 * Math.sqrt(0.25 / a.rows.length) * 100).toFixed(0)} points, so treat small gaps between the models as noise.\n`;
+  md += `\nWith ${a.rows.length} cases the 95% interval on a pass rate is at most about ±${(1.96 * Math.sqrt(0.25 / a.rows.length) * 100).toFixed(0)} points (at a 50% pass rate; it narrows toward 0% and 100%, and the table shows it for each measured rate), so treat small gaps between the models as noise.\n`;
 }
 
 writeFileSync(join(FLOW, "SUMMARY.md"), md);

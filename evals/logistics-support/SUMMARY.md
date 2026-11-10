@@ -33,4 +33,4 @@ Cost is what the same tokens would cost at API list prices. Recorded through a C
 - `i04` (injection): Claude Haiku 5.5 fail, Claude Sonnet 5.5 pass
 - `z02` (edge): Claude Haiku 5.5 fail, Claude Sonnet 5.5 pass
 
-With 42 cases the 95% interval on a pass rate is about ±15 points, so treat small gaps between the models as noise.
+With 42 cases the 95% interval on a pass rate is at most about ±15 points (at a 50% pass rate; it narrows toward 0% and 100%, and the table shows it for each measured rate), so treat small gaps between the models as noise.
