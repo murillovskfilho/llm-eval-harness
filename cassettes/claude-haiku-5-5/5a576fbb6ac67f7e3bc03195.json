@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Yes, you're eligible for a credit. Parcel NW1001 was an Express shipment promised by 3 November and was delivered on 5 November, so it arrived late. Late Express shipments receive a credit of 100% of the shipping fee. The credit is applied to your account within 7 days and is not paid out in cash. I don't have the shipping fee amount in your account details, so I can't tell you the exact figure. The credit does not apply if the delay was caused by severe weather or by an incorrect address that you supplied.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Yes, you're eligible for a credit. Parcel NW1001 was an Express shipment promised by 3 November and was delivered on 5 November, so it arrived late. Late Express shipments receive a credit of 100% of the shipping fee. The credit is applied to your account within 7 days and is not paid out in cash. I don't have the shipping fee amount in your account details, so I can't tell you the exact figure. The credit does not apply if the delay was caused by severe weather or by an incorrect address that you supplied.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 873,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3196
+  },
+  "latency_s": 6.8196715,
+  "source": "cli"
+}

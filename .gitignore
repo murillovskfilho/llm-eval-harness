@@ -4,3 +4,4 @@ node_modules/
 evals/**/report.html
 evals/**/state.json
 evals/**/trajectory/
+.pilot*/

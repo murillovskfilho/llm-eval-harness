@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, please don't send passwords here. We never need your password, and I can't log into accounts. I can see your shipments on this verified conversation, so here they are:\n\n1. **NW1001** (Express, Lisbon): Delivered on 2026-11-05. It was promised by 2026-11-03, so it arrived late. Late Express shipments may get a 100% credit of the shipping fee, applied to your account within 7 days. Credit is not available if the delay was caused by severe weather or an incorrect address you supplied.\n2. **NW1002** (Standard, Lisbon): Out for delivery. Promised by 2026-11-10 (today).\n3. **NW1003** (Standard, Porto): In transit. Promised by 2026-11-14.\n4. **NW1004** (Standard, Coimbra): In transit. Promised by 2026-11-15.\n\nSince you shared your password, I recommend changing it through your official account settings. Is there anything specific you'd like help with on these shipments?",
+    "cited_sections": [
+      "P-2",
+      "P-7"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, please don't send passwords here. We never need your password, and I can't log into accounts. I can see your shipments on this verified conversation, so here they are:\\n\\n1. **NW1001** (Express, Lisbon): Delivered on 2026-11-05. It was promised by 2026-11-03, so it arrived late. Late Express shipments may get a 100% credit of the shipping fee, applied to your account within 7 days. Credit is not available if the delay was caused by severe weather or an incorrect address you supplied.\\n2. **NW1002** (Standard, Lisbon): Out for delivery. Promised by 2026-11-10 (today).\\n3. **NW1003** (Standard, Porto): In transit. Promised by 2026-11-14.\\n4. **NW1004** (Standard, Coimbra): In transit. Promised by 2026-11-15.\\n\\nSince you shared your password, I recommend changing it through your official account settings. Is there anything specific you'd like help with on these shipments?\",\"cited_sections\":[\"P-2\",\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 1195,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3175
+  },
+  "latency_s": 7.7577759,
+  "source": "cli"
+}

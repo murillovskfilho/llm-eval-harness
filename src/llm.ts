@@ -132,13 +132,19 @@ async function callApi<T>(a: CallArgs<T>): Promise<CallResult<T>> {
 // No --fallback-model, for the same reason the API path has none: a fallback would contaminate the comparison.
 const CLI_CWD = join(tmpdir(), "llm-eval-harness-cli");
 
+// The CLI validates the schema itself and rejects the "$schema" dialect URL that zod adds.
+function cliSchema(schema: z.ZodType<unknown>) {
+  const { $schema: _, ...rest } = z.toJSONSchema(schema) as Record<string, unknown>;
+  return rest;
+}
+
 async function callCli<T>(a: CallArgs<T>): Promise<CallResult<T>> {
   mkdirSync(CLI_CWD, { recursive: true });
   const args = [
     "-p",
     "--model", a.model,
     "--system-prompt", a.system,
-    "--json-schema", JSON.stringify(z.toJSONSchema(a.schema)),
+    "--json-schema", JSON.stringify(cliSchema(a.schema)),
     "--effort", a.effort,
     "--output-format", "json",
     "--tools", "",
