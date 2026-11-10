@@ -6,6 +6,8 @@
     "typecheck": "tsc --noEmit",
     "eval:haiku": "tsx src/run.ts --variant baseline --model claude-haiku-5-5",
     "eval:sonnet": "tsx src/run.ts --variant v1 --model claude-sonnet-5-5",
+    "record:haiku": "tsx src/run.ts --variant baseline --model claude-haiku-5-5 --record",
+    "record:sonnet": "tsx src/run.ts --variant v1 --model claude-sonnet-5-5 --record",
     "selftest": "tsx src/selftest.ts",
     "report": "node tools/build-report-lite.mjs evals/logistics-support/",
     "summary": "tsx src/summary.ts",

@@ -14,7 +14,7 @@ import { join } from "node:path";
 import { parseArgs } from "node:util";
 import { buildUserMessage, ReplySchema, SYSTEM_PROMPT, type Customer, type Reply } from "./app/assistant.js";
 import { judge, JUDGE_MODEL, runChecks, type Case } from "./grade.js";
-import { callModel, MissingCassette, MODE } from "./llm.js";
+import { BACKEND, callModel, MissingCassette, MODE } from "./llm.js";
 
 const { values: args } = parseArgs({
   options: {
@@ -25,6 +25,7 @@ const { values: args } = parseArgs({
     "timeout-s": { type: "string", default: "120" },
     only: { type: "string" },
     stub: { type: "string" }, // oracle | null (only with EVAL_MODE=stub)
+    record: { type: "boolean" }, // read by llm.ts: same as EVAL_MODE=record
     out: { type: "string", default: "evals/logistics-support" },
   },
 });
@@ -127,7 +128,7 @@ async function runOne(c: Case, rep: number) {
 
 async function main() {
   const jobs = cases.flatMap((c) => Array.from({ length: REPS }, (_, rep) => ({ c, rep }))).filter(({ c, rep }) => !done.has(`${c.id}#${rep}`));
-  console.log(`${args.variant}: ${jobs.length} attempts (${cases.length} cases × ${REPS} reps, ${done.size} already done), model ${args.model}, judge ${JUDGE_MODEL}, mode ${MODE}`);
+  console.log(`${args.variant}: ${jobs.length} attempts (${cases.length} cases × ${REPS} reps, ${done.size} already done), model ${args.model}, judge ${JUDGE_MODEL}, mode ${MODE}${MODE === "record" || MODE === "live" ? ` via ${BACKEND}` : ""}`);
 
   let next = 0;
   const worker = async () => {

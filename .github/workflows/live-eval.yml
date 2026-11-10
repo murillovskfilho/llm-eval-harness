@@ -1,8 +1,9 @@
 name: live-eval
 
+# Manual only. Recordings are made locally through Claude Code (no API key, no extra cost).
+# This job exists for anyone who has an API key and wants a drift check against the live API:
+# add the ANTHROPIC_API_KEY secret and run it from the Actions tab (or add a schedule).
 on:
-  schedule:
-    - cron: "0 9 * * 1" # weekly (Monday): catches model and prompt drift against the real API
   workflow_dispatch:
 
 concurrency:
@@ -33,6 +34,7 @@ jobs:
         if: env.ANTHROPIC_API_KEY != ''
         env:
           EVAL_MODE: live
+          EVAL_BACKEND: api
         run: |
           mkdir -p live && cp evals/logistics-support/_state.json live/ && mkdir -p live/v1 && cp evals/logistics-support/v1/change.md live/v1/
           npx tsx src/run.ts --variant baseline --model claude-haiku-5-5 --out live
