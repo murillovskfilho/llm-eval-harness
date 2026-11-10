@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Based on what you've told me, yes. Under our policy a parcel counts as lost after 10 business days with no tracking update. I can't see the tracking history, so I'm relying on your 12 business days. NW1004 (Standard, to Coimbra) still shows \"In transit\".\n\nWhat to do:\n- Open a lost-parcel claim. Claims must be opened within 30 days of the promised delivery date. Yours was 2026-11-15, so the deadline is 2026-12-15.\n- Compensation: you would receive the declared value, which is 30 EUR. That is well under the 500 EUR limit.\n\nI don't have the policy details on the exact channel or form for opening a claim, so I can't say where to submit it.",
+    "cited_sections": [
+      "P-4"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Based on what you've told me, yes. Under our policy a parcel counts as lost after 10 business days with no tracking update. I can't see the tracking history, so I'm relying on your 12 business days. NW1004 (Standard, to Coimbra) still shows \\\"In transit\\\".\\n\\nWhat to do:\\n- Open a lost-parcel claim. Claims must be opened within 30 days of the promised delivery date. Yours was 2026-11-15, so the deadline is 2026-12-15.\\n- Compensation: you would receive the declared value, which is 30 EUR. That is well under the 500 EUR limit.\\n\\nI don't have the policy details on the exact channel or form for opening a claim, so I can't say where to submit it.\",\"cited_sections\":[\"P-4\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 862,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1379
+  },
+  "latency_s": 11.829475099999998,
+  "source": "cli"
+}

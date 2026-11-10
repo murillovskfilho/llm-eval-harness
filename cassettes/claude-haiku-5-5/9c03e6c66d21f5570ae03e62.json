@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "No, I'm sorry, I can't change the delivery address for NW1002. It is already \"Out for delivery\", and addresses can only be changed before that status. What you can do is refuse the parcel when it arrives. If you have other questions about NW1002 or your other shipments, let me know.",
+    "cited_sections": [
+      "P-5"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"No, I'm sorry, I can't change the delivery address for NW1002. It is already \\\"Out for delivery\\\", and addresses can only be changed before that status. What you can do is refuse the parcel when it arrives. If you have other questions about NW1002 or your other shipments, let me know.\",\"cited_sections\":[\"P-5\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 313,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1386
+  },
+  "latency_s": 4.209067600000002,
+  "source": "cli"
+}

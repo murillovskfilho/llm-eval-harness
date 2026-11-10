@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Unfortunately no. Express delivery isn't available to PO boxes. You can send to a PO box with Standard delivery, which takes 3–5 business days.",
+    "cited_sections": [
+      "P-1"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Unfortunately no. Express delivery isn't available to PO boxes. You can send to a PO box with Standard delivery, which takes 3–5 business days.\",\"cited_sections\":[\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 182,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1365
+  },
+  "latency_s": 5.1526008999999995,
+  "source": "cli"
+}

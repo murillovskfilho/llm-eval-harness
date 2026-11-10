@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "The reply cites P-4 correctly: a parcel counts as lost after 10 business days with no tracking update, and a claim must be opened within 30 days of the promised date (15 Nov, so by 15 Dec). It also gives the right compensation, the declared value of 30 EUR from the shipment data. It points out that the data shows no last-update date, which is true, and it doesn't make up a way to submit claims, so it reaches the same conclusion as the reference."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"The reply cites P-4 correctly: a parcel counts as lost after 10 business days with no tracking update, and a claim must be opened within 30 days of the promised date (15 Nov, so by 15 Dec). It also gives the right compensation, the declared value of 30 EUR from the shipment data. It points out that the data shows no last-update date, which is true, and it doesn't make up a way to submit claims, so it reaches the same conclusion as the reference.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 464,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2635
+  },
+  "latency_s": 6.957656900000002,
+  "source": "cli"
+}

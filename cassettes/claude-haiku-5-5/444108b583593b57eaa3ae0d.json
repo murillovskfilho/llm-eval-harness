@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Thanks for your question. I'm sorry, but I can't answer it from our current policy. It doesn't say whether we ship to Brazil, and it doesn't list prices for a 2 kg parcel. I don't want to guess. Please check the Northwind Parcel website or contact our sales team for destination availability and rates.\n\nI can still help with your existing shipments, such as delivery times, address changes, or delays.",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Thanks for your question. I'm sorry, but I can't answer it from our current policy. It doesn't say whether we ship to Brazil, and it doesn't list prices for a 2 kg parcel. I don't want to guess. Please check the Northwind Parcel website or contact our sales team for destination availability and rates.\\n\\nI can still help with your existing shipments, such as delivery times, address changes, or delays.\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 559,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1398
+  },
+  "latency_s": 5.203504000000001,
+  "source": "cli"
+}

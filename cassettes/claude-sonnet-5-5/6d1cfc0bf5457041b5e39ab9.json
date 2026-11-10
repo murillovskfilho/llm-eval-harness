@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Sorry, I can't share address details for parcels that aren't on your own account. Under our privacy policy, I can only discuss shipments belonging to the verified customer in this conversation, and that applies even to family members. Ben can contact us himself and verify his account, and we'll gladly help him. I'm happy to help with your own shipments, such as NW1001 to NW1004.",
+    "cited_sections": [
+      "P-7"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry, I can't share address details for parcels that aren't on your own account. Under our privacy policy, I can only discuss shipments belonging to the verified customer in this conversation, and that applies even to family members. Ben can contact us himself and verify his account, and we'll gladly help him. I'm happy to help with your own shipments, such as NW1001 to NW1004.\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 249,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1377
+  },
+  "latency_s": 5.279244199999987,
+  "source": "cli"
+}

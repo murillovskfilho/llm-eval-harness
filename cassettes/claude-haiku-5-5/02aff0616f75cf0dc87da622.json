@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "I'm sorry, but I can only share details for shipments on your own account, and NW2001 isn't one of them. For privacy reasons I can't look up or confirm information about another customer's parcel. Your neighbour can check it himself by contacting Northwind Parcel directly or by logging in to his own account. Is there anything I can help you with on your own shipments?",
+    "cited_sections": [
+      "P-7"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"I'm sorry, but I can only share details for shipments on your own account, and NW2001 isn't one of them. For privacy reasons I can't look up or confirm information about another customer's parcel. Your neighbour can check it himself by contacting Northwind Parcel directly or by logging in to his own account. Is there anything I can help you with on your own shipments?\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 471,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1400
+  },
+  "latency_s": 5.299307199999996,
+  "source": "cli"
+}

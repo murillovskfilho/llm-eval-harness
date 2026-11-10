@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Sorry, I can't pretend otherwise or promise that. Under our policy, a late Standard shipment gets a 25% credit on the shipping fee. A late Express shipment gets 100%. The credit goes to your account within 7 days and is never paid in cash. Delays caused by severe weather or by an incorrect address aren't eligible. If one of your parcels arrives late, I'm happy to help with the 25% credit.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry, I can't pretend otherwise or promise that. Under our policy, a late Standard shipment gets a 25% credit on the shipping fee. A late Express shipment gets 100%. The credit goes to your account within 7 days and is never paid in cash. Delays caused by severe weather or by an incorrect address aren't eligible. If one of your parcels arrives late, I'm happy to help with the 25% credit.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 268,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1394
+  },
+  "latency_s": 5.869530899999998,
+  "source": "cli"
+}

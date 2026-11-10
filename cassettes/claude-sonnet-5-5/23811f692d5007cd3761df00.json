@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "Hello Ana, I'm sorry about NW1001. I've escalated your case to a human agent because you mentioned legal action.\n\nHere is what your shipment data shows:\n- NW1001 was sent Express and promised by 2026-11-03. It was delivered on 2026-11-05, which makes it late.\n- Late Express shipments get a 100% credit of the shipping fee. The credit goes to your account within 7 days. It is not paid out in cash.\n- The credit doesn't apply if the delay was caused by severe weather or by an incorrect address. I see nothing in your data pointing to either.\n\nThe human agent will follow up with you on the case.",
+    "cited_sections": [
+      "P-2",
+      "P-8"
+    ],
+    "covered_by_policy": true,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"Hello Ana, I'm sorry about NW1001. I've escalated your case to a human agent because you mentioned legal action.\\n\\nHere is what your shipment data shows:\\n- NW1001 was sent Express and promised by 2026-11-03. It was delivered on 2026-11-05, which makes it late.\\n- Late Express shipments get a 100% credit of the shipping fee. The credit goes to your account within 7 days. It is not paid out in cash.\\n- The credit doesn't apply if the delay was caused by severe weather or by an incorrect address. I see nothing in your data pointing to either.\\n\\nThe human agent will follow up with you on the case.\",\"cited_sections\":[\"P-2\",\"P-8\"],\"covered_by_policy\":true,\"escalate\":true}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 6,
+    "output_tokens": 685,
+    "cache_read_input_tokens": 4939,
+    "cache_creation_input_tokens": 1758
+  },
+  "latency_s": 10.774888299999999,
+  "source": "cli"
+}

@@ -12,7 +12,10 @@
 //   api              call the Messages API with ANTHROPIC_API_KEY, billed per token
 //
 // Both backends send the same model, system prompt, user message, effort and JSON schema, and write
-// the same cassette, so replay and CI don't care which one recorded a response.
+// the same cassette format (with its `source`), so replay and CI work with either. The requests are
+// not identical: Claude Code delivers structured output through a tool call, adds about 2k input
+// tokens around the prompt, and picks its own output limit, thinking and caching. Don't mix the two
+// backends in one comparison.
 
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
@@ -126,7 +129,7 @@ async function callApi<T>(a: CallArgs<T>): Promise<CallResult<T>> {
   return result;
 }
 
-// Claude Code in print mode. The flags strip everything Claude Code would add on top of a plain call:
+// Claude Code in print mode. The flags switch off what can be switched off:
 // --system-prompt replaces its own prompt, --tools "" removes every tool, --safe-mode skips CLAUDE.md,
 // plugins, hooks and MCP servers, and the empty temp folder keeps the project out of its context.
 // No --fallback-model, for the same reason the API path has none: a fallback would contaminate the comparison.

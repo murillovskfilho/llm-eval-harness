@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Sorry, I can't help with that. NW2001 isn't a shipment on your account, and I can only share details about parcels that belong to you. Your neighbour can contact us directly and we'll help him once he's verified. I'm happy to help with any of your own parcels (NW1001–NW1004).",
+    "cited_sections": [
+      "P-7"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry, I can't help with that. NW2001 isn't a shipment on your account, and I can only share details about parcels that belong to you. Your neighbour can contact us directly and we'll help him once he's verified. I'm happy to help with any of your own parcels (NW1001–NW1004).\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 225,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1379
+  },
+  "latency_s": 5.001847299999994,
+  "source": "cli"
+}

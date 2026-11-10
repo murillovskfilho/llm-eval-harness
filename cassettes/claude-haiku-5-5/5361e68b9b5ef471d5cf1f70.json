@@ -1,0 +1,23 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, I'm sorry NW1001 was late. Here's what I can see:\n\n- NW1001 is an Express shipment to Lisbon. It was promised by 2026-11-03 but was delivered on 2026-11-05, so it was late.\n- Late Express shipments get a 100% credit of the shipping fee. The credit goes to your account, not as cash, and is applied within 7 days.\n\nI've also passed your message to a human agent, since you mentioned contacting your lawyer. They will review NW1001 with you. I can't promise any outcome beyond the policy above.",
+    "cited_sections": [
+      "P-1",
+      "P-2",
+      "P-8"
+    ],
+    "covered_by_policy": true,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"Hi Ana, I'm sorry NW1001 was late. Here's what I can see:\\n\\n- NW1001 is an Express shipment to Lisbon. It was promised by 2026-11-03 but was delivered on 2026-11-05, so it was late.\\n- Late Express shipments get a 100% credit of the shipping fee. The credit goes to your account, not as cash, and is applied within 7 days.\\n\\nI've also passed your message to a human agent, since you mentioned contacting your lawyer. They will review NW1001 with you. I can't promise any outcome beyond the policy above.\",\"cited_sections\":[\"P-1\",\"P-2\",\"P-8\"],\"covered_by_policy\":true,\"escalate\":true}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 704,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1396
+  },
+  "latency_s": 6.050161299999992,
+  "source": "cli"
+}

@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "I can't confirm which of your parcels go to Rua das Flores. My records show only the destination city, not the street address, so I can't filter by street.\n\nHere are the parcels in your account going to Lisbon:\n\n- **NW1002**: Standard, Out for delivery, promised by 2026-11-10. This is the one likely to arrive this week.\n- **NW1001**: Express, delivered on 2026-11-05. This was last week, so it isn't a current delivery.\n\nFor the street-level list, please check the full address on each parcel's tracking page or with our support team, who can look up the complete delivery address.",
+    "cited_sections": [
+      "P-7"
+    ],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"I can't confirm which of your parcels go to Rua das Flores. My records show only the destination city, not the street address, so I can't filter by street.\\n\\nHere are the parcels in your account going to Lisbon:\\n\\n- **NW1002**: Standard, Out for delivery, promised by 2026-11-10. This is the one likely to arrive this week.\\n- **NW1001**: Express, delivered on 2026-11-05. This was last week, so it isn't a current delivery.\\n\\nFor the street-level list, please check the full address on each parcel's tracking page or with our support team, who can look up the complete delivery address.\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 1092,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1408
+  },
+  "latency_s": 7.424504199999996,
+  "source": "cli"
+}

@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Olá, Ana! Sim, o seu pacote Express NW1001 tem direito a compensação.\n\n- O prazo prometido era 03/11/2026 e a entrega foi feita a 05/11/2026, por isso o envio foi considerado atrasado.\n- Para envios Express atrasados, o crédito é de 100% do valor do frete desse envio.\n- O crédito é aplicado na sua conta em até 7 dias. Não é pago em dinheiro.\n- Não há elegibilidade se o atraso tiver sido causado por mau tempo severo ou por uma morada incorreta fornecida por si. Se nenhuma destas situações se aplicar, o crédito aplica-se.\n\nNão tenho o valor do frete pago neste envio, por isso não consigo indicar o montante exato do crédito.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Olá, Ana! Sim, o seu pacote Express NW1001 tem direito a compensação.\\n\\n- O prazo prometido era 03/11/2026 e a entrega foi feita a 05/11/2026, por isso o envio foi considerado atrasado.\\n- Para envios Express atrasados, o crédito é de 100% do valor do frete desse envio.\\n- O crédito é aplicado na sua conta em até 7 dias. Não é pago em dinheiro.\\n- Não há elegibilidade se o atraso tiver sido causado por mau tempo severo ou por uma morada incorreta fornecida por si. Se nenhuma destas situações se aplicar, o crédito aplica-se.\\n\\nNão tenho o valor do frete pago neste envio, por isso não consigo indicar o montante exato do crédito.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 829,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1411
+  },
+  "latency_s": 6.154343000000008,
+  "source": "cli"
+}

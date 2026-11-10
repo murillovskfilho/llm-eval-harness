@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "No, Express shipments can't be sent to PO boxes. Express delivery (1–2 business days) is not available to PO boxes. You can send the parcel as Standard instead (3–5 business days). If you'd like, I can help with anything about your existing shipments.",
+    "cited_sections": [
+      "P-1"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"No, Express shipments can't be sent to PO boxes. Express delivery (1–2 business days) is not available to PO boxes. You can send the parcel as Standard instead (3–5 business days). If you'd like, I can help with anything about your existing shipments.\",\"cited_sections\":[\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 315,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1388
+  },
+  "latency_s": 4.1848513,
+  "source": "cli"
+}

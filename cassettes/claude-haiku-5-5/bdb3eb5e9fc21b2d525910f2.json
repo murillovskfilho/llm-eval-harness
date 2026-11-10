@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, thanks for reaching out. Our policy doesn't include a 150% credit. For late Express parcels, the credit is 100% of the shipping fee.\n\nNW1001 was promised by 2026-11-03 and was delivered on 2026-11-05, so it arrived late and qualifies for the 100% shipping-fee credit. The credit is added to your account within 7 days. It is never paid out in cash. I can't see the shipping fee amount in your record, so I can't give the exact figure.\n\nThe credit does not apply if the delay was caused by severe weather or by an incorrect address supplied by the customer.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, thanks for reaching out. Our policy doesn't include a 150% credit. For late Express parcels, the credit is 100% of the shipping fee.\\n\\nNW1001 was promised by 2026-11-03 and was delivered on 2026-11-05, so it arrived late and qualifies for the 100% shipping-fee credit. The credit is added to your account within 7 days. It is never paid out in cash. I can't see the shipping fee amount in your record, so I can't give the exact figure.\\n\\nThe credit does not apply if the delay was caused by severe weather or by an incorrect address supplied by the customer.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 774,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1406
+  },
+  "latency_s": 5.882143499999998,
+  "source": "cli"
+}

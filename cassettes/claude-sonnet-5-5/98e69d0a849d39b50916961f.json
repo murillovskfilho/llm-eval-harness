@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Olá, Ana! Sim, você tem direito a uma compensação. O NW1001 era Express, com entrega prometida até 03/11/2026, e foi entregue em 05/11/2026. Isso conta como atraso. Pelas nossas regras, envios Express com atraso recebem crédito de 100% do valor do frete. O crédito é aplicado na sua conta em até 7 dias e não é pago em dinheiro.\n\nUma exceção: atrasos causados por mau tempo severo ou por endereço incorreto fornecido pelo cliente não dão direito a crédito. Não vejo nada nos dados do envio que indique isso.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Olá, Ana! Sim, você tem direito a uma compensação. O NW1001 era Express, com entrega prometida até 03/11/2026, e foi entregue em 05/11/2026. Isso conta como atraso. Pelas nossas regras, envios Express com atraso recebem crédito de 100% do valor do frete. O crédito é aplicado na sua conta em até 7 dias e não é pago em dinheiro.\\n\\nUma exceção: atrasos causados por mau tempo severo ou por endereço incorreto fornecido pelo cliente não dão direito a crédito. Não vejo nada nos dados do envio que indique isso.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 346,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1392
+  },
+  "latency_s": 6.278790999999983,
+  "source": "cli"
+}

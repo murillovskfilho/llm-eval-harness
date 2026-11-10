@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "Unfortunately, no. Our delivery windows run from 8:00 to 20:00 local time, so a 22:00 delivery isn't possible. Our policy doesn't offer evening slots after 20:00. Your parcel NW2001 is currently held at the depot after a failed attempt. You can book one free redelivery, and it must happen within 5 business days of the failed attempt, or the parcel goes back to the sender. If you'd like, you can choose a time within the 8:00–20:00 window that suits you best, for example a later one.",
+    "cited_sections": [
+      "P-1",
+      "P-3"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Unfortunately, no. Our delivery windows run from 8:00 to 20:00 local time, so a 22:00 delivery isn't possible. Our policy doesn't offer evening slots after 20:00. Your parcel NW2001 is currently held at the depot after a failed attempt. You can book one free redelivery, and it must happen within 5 business days of the failed attempt, or the parcel goes back to the sender. If you'd like, you can choose a time within the 8:00–20:00 window that suits you best, for example a later one.\",\"cited_sections\":[\"P-1\",\"P-3\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 307,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1282
+  },
+  "latency_s": 5.579833100000004,
+  "source": "cli"
+}

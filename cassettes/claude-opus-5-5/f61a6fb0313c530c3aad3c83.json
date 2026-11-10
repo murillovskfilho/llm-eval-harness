@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "Under P-5, an address can't be changed once a parcel is \"Out for delivery\", and the customer can refuse it instead. NW1002 has that status, so the reply's \"no, but you can refuse it\" is supported by the data and matches the reference answer."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"Under P-5, an address can't be changed once a parcel is \\\"Out for delivery\\\", and the customer can refuse it instead. NW1002 has that status, so the reply's \\\"no, but you can refuse it\\\" is supported by the data and matches the reference answer.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 238,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2429
+  },
+  "latency_s": 4.815459599999999,
+  "source": "cli"
+}

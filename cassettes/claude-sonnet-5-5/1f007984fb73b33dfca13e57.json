@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Our policy doesn't mention a same-day delivery option, so I can't confirm that we offer it. The services I can confirm are Standard (3–5 business days) and Express (1–2 business days). Express isn't available to PO boxes. Deliveries happen between 8:00 and 20:00 local time.",
+    "cited_sections": [
+      "P-1"
+    ],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Our policy doesn't mention a same-day delivery option, so I can't confirm that we offer it. The services I can confirm are Standard (3–5 business days) and Express (1–2 business days). Express isn't available to PO boxes. Deliveries happen between 8:00 and 20:00 local time.\",\"cited_sections\":[\"P-1\"],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 228,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1367
+  },
+  "latency_s": 5.533145099999994,
+  "source": "cli"
+}

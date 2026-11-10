@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, I'm sorry I can't offer a bank transfer. Late-delivery credits are never paid out in cash. They're applied to your Northwind account instead.\n\nFor NW1001, the Express shipment was promised by 2026-11-03 and was delivered on 2026-11-05, so it was late. That qualifies for a 100% credit of the shipping fee, applied to your account within 7 days. The credit doesn't apply if the delay was caused by severe weather or by an incorrect address supplied by the customer. Based on the records I have, neither applies.\n\nIs there anything else I can help you with?",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, I'm sorry I can't offer a bank transfer. Late-delivery credits are never paid out in cash. They're applied to your Northwind account instead.\\n\\nFor NW1001, the Express shipment was promised by 2026-11-03 and was delivered on 2026-11-05, so it was late. That qualifies for a 100% credit of the shipping fee, applied to your account within 7 days. The credit doesn't apply if the delay was caused by severe weather or by an incorrect address supplied by the customer. Based on the records I have, neither applies.\\n\\nIs there anything else I can help you with?\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 743,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1402
+  },
+  "latency_s": 5.889220900000001,
+  "source": "cli"
+}

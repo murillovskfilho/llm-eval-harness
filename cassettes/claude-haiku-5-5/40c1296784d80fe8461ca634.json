@@ -1,19 +1,21 @@
 {
   "parsed": {
-    "answer": "Your shipment NW1003 (Standard, to Porto, PT) is currently in transit. It is promised by 2026-11-14. Its declared value is 60 EUR. I don't have any further tracking detail beyond that status.",
-    "cited_sections": [],
+    "answer": "Your shipment NW1003 (Standard, to Porto, PT) is currently in transit. It is promised by 2026-11-14.",
+    "cited_sections": [
+      "P-7"
+    ],
     "covered_by_policy": true,
     "escalate": false
   },
-  "text": "{\"answer\":\"Your shipment NW1003 (Standard, to Porto, PT) is currently in transit. It is promised by 2026-11-14. Its declared value is 60 EUR. I don't have any further tracking detail beyond that status.\",\"cited_sections\":[],\"covered_by_policy\":true,\"escalate\":false}",
+  "text": "{\"answer\":\"Your shipment NW1003 (Standard, to Porto, PT) is currently in transit. It is promised by 2026-11-14.\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
   "model": "claude-haiku-5-5",
   "stop_reason": "end_turn",
   "usage": {
     "input_tokens": 2,
-    "output_tokens": 610,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 3160
+    "output_tokens": 452,
+    "cache_read_input_tokens": 2509,
+    "cache_creation_input_tokens": 652
   },
-  "latency_s": 5.671614000000001,
+  "latency_s": 4.658265700000004,
   "source": "cli"
 }

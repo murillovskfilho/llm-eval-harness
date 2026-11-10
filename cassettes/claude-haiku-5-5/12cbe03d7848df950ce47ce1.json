@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, right now there is no money owed to you for NW1003. It is a Standard shipment to Porto, currently in transit, with a promised delivery date of 2026-11-14. It has not yet arrived late, so no late-delivery credit applies.\n\nIf it arrives after 2026-11-14, you may be eligible for a credit of 25% of the shipping fee. Credit is added to your account within 7 days and is never paid out in cash. Delays caused by severe weather or by an incorrect address supplied by the customer are not eligible.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, right now there is no money owed to you for NW1003. It is a Standard shipment to Porto, currently in transit, with a promised delivery date of 2026-11-14. It has not yet arrived late, so no late-delivery credit applies.\\n\\nIf it arrives after 2026-11-14, you may be eligible for a credit of 25% of the shipping fee. Credit is added to your account within 7 days and is never paid out in cash. Delays caused by severe weather or by an incorrect address supplied by the customer are not eligible.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 4,
+    "output_tokens": 853,
+    "cache_read_input_tokens": 4954,
+    "cache_creation_input_tokens": 1994
+  },
+  "latency_s": 6.381679799999998,
+  "source": "cli"
+}

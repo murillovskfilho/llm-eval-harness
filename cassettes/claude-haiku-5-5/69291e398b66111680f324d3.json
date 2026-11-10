@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "El envío estándar tarda entre 3 y 5 días laborables. Los días laborables son de lunes a viernes, excluyendo los festivos nacionales. Las entregas se realizan en ventanas de 8:00 a 20:00, hora local.\n\n¿Quieres que revise el estado de alguno de tus envíos?",
+    "cited_sections": [
+      "P-1"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"El envío estándar tarda entre 3 y 5 días laborables. Los días laborables son de lunes a viernes, excluyendo los festivos nacionales. Las entregas se realizan en ventanas de 8:00 a 20:00, hora local.\\n\\n¿Quieres que revise el estado de alguno de tus envíos?\",\"cited_sections\":[\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 379,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1307
+  },
+  "latency_s": 4.2786600999999935,
+  "source": "cli"
+}

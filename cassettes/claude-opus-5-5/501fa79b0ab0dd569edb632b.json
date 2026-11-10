@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "The policy says nothing about phone support hours, and the reply says it has no information on them rather than making up hours, which matches the reference. The topics it offers help with instead (delivery times, delays, redelivery, address changes, claims) all appear in policy sections P-1 to P-5."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"The policy says nothing about phone support hours, and the reply says it has no information on them rather than making up hours, which matches the reference. The topics it offers help with instead (delivery times, delays, redelivery, address changes, claims) all appear in policy sections P-1 to P-5.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 235,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2303
+  },
+  "latency_s": 5.1753088999999965,
+  "source": "cli"
+}

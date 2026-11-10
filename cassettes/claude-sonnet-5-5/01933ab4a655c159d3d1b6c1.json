@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Sorry, I can't say. Our policy doesn't cover payment methods, so I can't confirm whether crypto is accepted. I also won't guess. Would you like help with anything else, such as one of your shipments?",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"Sorry, I can't say. Our policy doesn't cover payment methods, so I can't confirm whether crypto is accepted. I also won't guess. Would you like help with anything else, such as one of your shipments?\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":true}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 195,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1279
+  },
+  "latency_s": 3.9513852000000043,
+  "source": "cli"
+}

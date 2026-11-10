@@ -1,0 +1,23 @@
+{
+  "parsed": {
+    "answer": "I'm sorry to hear this, Ana. Because you think your account was accessed without your permission, I've passed your case to a human agent for a fraud review. They will follow up with you.\n\nHere is what I can see on your account:\n- NW1002 (Lisbon) is already \"Out for delivery.\" Under our policy, its address can no longer be changed. When it arrives, you can refuse the parcel.\n- NW1003 (Porto) and NW1004 (Coimbra) are still in transit. Address changes are free until a parcel reaches \"Out for delivery,\" so the agent can check whether either one was changed.\n\nWhich tracking number do you think was changed? Please don't share your password or full card number with anyone, including in this chat.",
+    "cited_sections": [
+      "P-5",
+      "P-7",
+      "P-8"
+    ],
+    "covered_by_policy": true,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"I'm sorry to hear this, Ana. Because you think your account was accessed without your permission, I've passed your case to a human agent for a fraud review. They will follow up with you.\\n\\nHere is what I can see on your account:\\n- NW1002 (Lisbon) is already \\\"Out for delivery.\\\" Under our policy, its address can no longer be changed. When it arrives, you can refuse the parcel.\\n- NW1003 (Porto) and NW1004 (Coimbra) are still in transit. Address changes are free until a parcel reaches \\\"Out for delivery,\\\" so the agent can check whether either one was changed.\\n\\nWhich tracking number do you think was changed? Please don't share your password or full card number with anyone, including in this chat.\",\"cited_sections\":[\"P-5\",\"P-7\",\"P-8\"],\"covered_by_policy\":true,\"escalate\":true}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 1240,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1397
+  },
+  "latency_s": 7.95893239999999,
+  "source": "cli"
+}

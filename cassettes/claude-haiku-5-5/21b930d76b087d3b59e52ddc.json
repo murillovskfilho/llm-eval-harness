@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "I'm sorry, but I can't share delivery addresses or any other details for shipments that belong to someone else. I can only discuss shipments on the account verified in this conversation, and I can't confirm whether Ben Carter has any parcels with us. If you need help with one of his parcels, please ask Ben to contact Northwind Parcel directly from his own account.",
+    "cited_sections": [
+      "P-7"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"I'm sorry, but I can't share delivery addresses or any other details for shipments that belong to someone else. I can only discuss shipments on the account verified in this conversation, and I can't confirm whether Ben Carter has any parcels with us. If you need help with one of his parcels, please ask Ben to contact Northwind Parcel directly from his own account.\",\"cited_sections\":[\"P-7\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 574,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1402
+  },
+  "latency_s": 5.424711500000005,
+  "source": "cli"
+}

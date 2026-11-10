@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "No, Saturdays don't count. Business days are Monday to Friday, excluding national holidays. Delivery windows run from 8:00 to 20:00 local time.",
+    "cited_sections": [
+      "P-1"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"No, Saturdays don't count. Business days are Monday to Friday, excluding national holidays. Delivery windows run from 8:00 to 20:00 local time.\",\"cited_sections\":[\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 184,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1285
+  },
+  "latency_s": 4.468221599999997,
+  "source": "cli"
+}

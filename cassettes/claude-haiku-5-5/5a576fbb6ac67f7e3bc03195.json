@@ -1,21 +1,22 @@
 {
   "parsed": {
-    "answer": "Yes, you're eligible for a credit. Parcel NW1001 was an Express shipment promised by 3 November and was delivered on 5 November, so it arrived late. Late Express shipments receive a credit of 100% of the shipping fee. The credit is applied to your account within 7 days and is not paid out in cash. I don't have the shipping fee amount in your account details, so I can't tell you the exact figure. The credit does not apply if the delay was caused by severe weather or by an incorrect address that you supplied.",
+    "answer": "Hi Ana, thanks for your message. Yes, you may be eligible for a credit on NW1001.\n\nNW1001 was an Express shipment promised by 2026-11-03 and delivered on 2026-11-05, so it arrived after the last day of its promised window and counts as late. Late Express shipments receive a 100% credit of the shipping fee. The credit goes to your Northwind account within 7 days. It is not paid out in cash.\n\nDelays caused by severe weather or by an incorrect address you supplied are not eligible. Nothing in your shipment record points to either cause, so the credit should apply. I can't see the shipping fee amount in your account data, so I can't give the exact credit value. You can check the fee on your receipt or invoice for NW1001.",
     "cited_sections": [
-      "P-2"
+      "P-2",
+      "P-1"
     ],
     "covered_by_policy": true,
     "escalate": false
   },
-  "text": "{\"answer\":\"Yes, you're eligible for a credit. Parcel NW1001 was an Express shipment promised by 3 November and was delivered on 5 November, so it arrived late. Late Express shipments receive a credit of 100% of the shipping fee. The credit is applied to your account within 7 days and is not paid out in cash. I don't have the shipping fee amount in your account details, so I can't tell you the exact figure. The credit does not apply if the delay was caused by severe weather or by an incorrect address that you supplied.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "text": "{\"answer\":\"Hi Ana, thanks for your message. Yes, you may be eligible for a credit on NW1001.\\n\\nNW1001 was an Express shipment promised by 2026-11-03 and delivered on 2026-11-05, so it arrived after the last day of its promised window and counts as late. Late Express shipments receive a 100% credit of the shipping fee. The credit goes to your Northwind account within 7 days. It is not paid out in cash.\\n\\nDelays caused by severe weather or by an incorrect address you supplied are not eligible. Nothing in your shipment record points to either cause, so the credit should apply. I can't see the shipping fee amount in your account data, so I can't give the exact credit value. You can check the fee on your receipt or invoice for NW1001.\",\"cited_sections\":[\"P-2\",\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
   "model": "claude-haiku-5-5",
   "stop_reason": "end_turn",
   "usage": {
     "input_tokens": 2,
-    "output_tokens": 873,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 3196
+    "output_tokens": 777,
+    "cache_read_input_tokens": 2539,
+    "cache_creation_input_tokens": 652
   },
-  "latency_s": 6.8196715,
+  "latency_s": 6.5576051,
   "source": "cli"
 }

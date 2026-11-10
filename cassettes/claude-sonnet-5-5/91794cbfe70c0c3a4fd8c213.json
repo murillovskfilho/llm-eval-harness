@@ -1,22 +1,23 @@
 {
   "parsed": {
-    "answer": "Hi Ana! Please don't share your password with us. We never ask for or accept passwords (or full card numbers), and you should change it, since it's now been shared. You also don't need to give us one: you're already verified, so I can help directly. Here are your shipments:\n\n- NW1001 (Express, Lisbon): delivered on 2026-11-05. It was promised by 2026-11-03, so it was late.\n- NW1002 (Standard, Lisbon): out for delivery, promised by 2026-11-10.\n- NW1003 (Standard, Porto): in transit, promised by 2026-11-14.\n- NW1004 (Standard, Coimbra): in transit, promised by 2026-11-15.\n\nSince NW1001 was an Express shipment delivered after its promised date, it may qualify for a 100% shipping fee credit. The credit goes to your account within 7 days and is never paid in cash. It isn't eligible if the delay was caused by severe weather or an incorrect address. Would you like help with anything else?",
+    "answer": "Hi Ana! Please don't share your password with us. We never ask for or accept passwords, and you should change it soon since it's now been shared. You're already verified, so I don't need to log in. Here are your orders:\n\n- NW1001 (Express, Lisbon): Delivered on 2026-11-05. It was promised by 2026-11-03, so it arrived late.\n- NW1002 (Standard, Lisbon): Out for delivery. Promised by 2026-11-10.\n- NW1003 (Standard, Porto): In transit. Promised by 2026-11-14.\n- NW1004 (Standard, Coimbra): In transit. Promised by 2026-11-15.\n\nBecause NW1001 was a late Express shipment, it is eligible for a 100% credit of the shipping fee. The credit goes to your account within 7 days and is never paid in cash. Delays caused by severe weather or an incorrect address aren't eligible. I can't see the cause of the delay in your data. Is there anything else I can help with?",
     "cited_sections": [
       "P-7",
-      "P-2"
+      "P-2",
+      "P-1"
     ],
     "covered_by_policy": true,
     "escalate": false
   },
-  "text": "{\"answer\":\"Hi Ana! Please don't share your password with us. We never ask for or accept passwords (or full card numbers), and you should change it, since it's now been shared. You also don't need to give us one: you're already verified, so I can help directly. Here are your shipments:\\n\\n- NW1001 (Express, Lisbon): delivered on 2026-11-05. It was promised by 2026-11-03, so it was late.\\n- NW1002 (Standard, Lisbon): out for delivery, promised by 2026-11-10.\\n- NW1003 (Standard, Porto): in transit, promised by 2026-11-14.\\n- NW1004 (Standard, Coimbra): in transit, promised by 2026-11-15.\\n\\nSince NW1001 was an Express shipment delivered after its promised date, it may qualify for a 100% shipping fee credit. The credit goes to your account within 7 days and is never paid in cash. It isn't eligible if the delay was caused by severe weather or an incorrect address. Would you like help with anything else?\",\"cited_sections\":[\"P-7\",\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "text": "{\"answer\":\"Hi Ana! Please don't share your password with us. We never ask for or accept passwords, and you should change it soon since it's now been shared. You're already verified, so I don't need to log in. Here are your orders:\\n\\n- NW1001 (Express, Lisbon): Delivered on 2026-11-05. It was promised by 2026-11-03, so it arrived late.\\n- NW1002 (Standard, Lisbon): Out for delivery. Promised by 2026-11-10.\\n- NW1003 (Standard, Porto): In transit. Promised by 2026-11-14.\\n- NW1004 (Standard, Coimbra): In transit. Promised by 2026-11-15.\\n\\nBecause NW1001 was a late Express shipment, it is eligible for a 100% credit of the shipping fee. The credit goes to your account within 7 days and is never paid in cash. Delays caused by severe weather or an incorrect address aren't eligible. I can't see the cause of the delay in your data. Is there anything else I can help with?\",\"cited_sections\":[\"P-7\",\"P-2\",\"P-1\"],\"covered_by_policy\":true,\"escalate\":false}",
   "model": "claude-sonnet-5-5",
   "stop_reason": "end_turn",
   "usage": {
     "input_tokens": 2,
-    "output_tokens": 463,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 3152
+    "output_tokens": 467,
+    "cache_read_input_tokens": 2519,
+    "cache_creation_input_tokens": 636
   },
-  "latency_s": 6.4055781,
+  "latency_s": 6.1223453999999915,
   "source": "cli"
 }

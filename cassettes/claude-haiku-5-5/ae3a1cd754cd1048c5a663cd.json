@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Under our policy, a parcel is considered lost after 10 business days with no tracking update (P-4). If NW1004 has had no update for 12 business days, it has passed that point. However, my records show NW1004 as \"In transit\" with no last-update date, so I can't see its tracking history or confirm whether it has been marked as lost.\n\nWhat you can do:\n- Open a claim for NW1004 within 30 days of its promised delivery date (15 Nov 2026). That means by 15 Dec 2026 at the latest (P-4).\n- Compensation is the declared value of the parcel, up to 500 EUR. NW1004's declared value is 30 EUR.\n\nI can't open the claim from this chat, and the policy doesn't say how claims are submitted, so I can't give you the exact channel. Please let me know if you have any other questions about your shipments.",
+    "cited_sections": [
+      "P-4"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Under our policy, a parcel is considered lost after 10 business days with no tracking update (P-4). If NW1004 has had no update for 12 business days, it has passed that point. However, my records show NW1004 as \\\"In transit\\\" with no last-update date, so I can't see its tracking history or confirm whether it has been marked as lost.\\n\\nWhat you can do:\\n- Open a claim for NW1004 within 30 days of its promised delivery date (15 Nov 2026). That means by 15 Dec 2026 at the latest (P-4).\\n- Compensation is the declared value of the parcel, up to 500 EUR. NW1004's declared value is 30 EUR.\\n\\nI can't open the claim from this chat, and the policy doesn't say how claims are submitted, so I can't give you the exact channel. Please let me know if you have any other questions about your shipments.\",\"cited_sections\":[\"P-4\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 1527,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1404
+  },
+  "latency_s": 8.9313138,
+  "source": "cli"
+}

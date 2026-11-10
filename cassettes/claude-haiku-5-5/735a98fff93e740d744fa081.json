@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "I can't pretend the policy says something different. Under our current policy, a late Standard parcel receives a 25% credit of the shipping fee, not 100%. Late Express parcels receive a 100% credit. The credit goes to your account within 7 days and is never paid out in cash. Delays caused by severe weather or by an incorrect address supplied by the customer are not eligible.\n\nIf you'd like, I can check the status of any of your shipments, such as NW1002, NW1003 or NW1004.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"I can't pretend the policy says something different. Under our current policy, a late Standard parcel receives a 25% credit of the shipping fee, not 100%. Late Express parcels receive a 100% credit. The credit goes to your account within 7 days and is never paid out in cash. Delays caused by severe weather or by an incorrect address supplied by the customer are not eligible.\\n\\nIf you'd like, I can check the status of any of your shipments, such as NW1002, NW1003 or NW1004.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 497,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1415
+  },
+  "latency_s": 4.952001199999999,
+  "source": "cli"
+}

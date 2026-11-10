@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Sorry about the delay, Ana. Unfortunately, delays caused by severe weather such as a snowstorm are not eligible for credit, so I can't offer a credit for this delay.\n\nIf the delay had a different cause, a late Standard parcel (arriving after the last day of its promised window) gets a 25% credit of the shipping fee. The credit goes to your account within 7 days and can't be paid out in cash.\n\nIf you send me the tracking number of the parcel (for example NW1002), I can check whether it qualifies.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry about the delay, Ana. Unfortunately, delays caused by severe weather such as a snowstorm are not eligible for credit, so I can't offer a credit for this delay.\\n\\nIf the delay had a different cause, a late Standard parcel (arriving after the last day of its promised window) gets a 25% credit of the shipping fee. The credit goes to your account within 7 days and can't be paid out in cash.\\n\\nIf you send me the tracking number of the parcel (for example NW1002), I can check whether it qualifies.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 864,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1403
+  },
+  "latency_s": 6.871987600000004,
+  "source": "cli"
+}

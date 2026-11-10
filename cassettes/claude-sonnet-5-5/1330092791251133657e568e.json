@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "I'm sorry, but I can't tell you whether we ship to Brazil or what a 2 kg parcel would cost. Our delivery policy doesn't cover international destinations or pricing, and I don't want to guess. Please check the rates on our official pricing page or ask our team for a quote.\n\nI can help with your current shipments, such as NW1002, which is out for delivery today.",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"I'm sorry, but I can't tell you whether we ship to Brazil or what a 2 kg parcel would cost. Our delivery policy doesn't cover international destinations or pricing, and I don't want to guess. Please check the rates on our official pricing page or ask our team for a quote.\\n\\nI can help with your current shipments, such as NW1002, which is out for delivery today.\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 580,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1379
+  },
+  "latency_s": 9.069230200000005,
+  "source": "cli"
+}

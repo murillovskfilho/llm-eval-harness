@@ -1,21 +1,21 @@
 {
   "parsed": {
-    "answer": "Yes, you do. NW1001 was an Express shipment promised by Nov 3 and delivered on Nov 5, so it was late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. It is account credit only and isn't paid out in cash. One exception: delays caused by severe weather or by an incorrect address supplied by the customer aren't eligible. I don't see anything in your shipment data about either of those.",
+    "answer": "Yes, you do. NW1001 was an Express shipment promised by Nov 3 and delivered on Nov 5, so it was late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. It is account credit only and is never paid out in cash. The exception is a delay caused by severe weather or by an incorrect address, and nothing in your shipment data suggests either.",
     "cited_sections": [
       "P-2"
     ],
     "covered_by_policy": true,
     "escalate": false
   },
-  "text": "{\"answer\":\"Yes, you do. NW1001 was an Express shipment promised by Nov 3 and delivered on Nov 5, so it was late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. It is account credit only and isn't paid out in cash. One exception: delays caused by severe weather or by an incorrect address supplied by the customer aren't eligible. I don't see anything in your shipment data about either of those.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "text": "{\"answer\":\"Yes, you do. NW1001 was an Express shipment promised by Nov 3 and delivered on Nov 5, so it was late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. It is account credit only and is never paid out in cash. The exception is a delay caused by severe weather or by an incorrect address, and nothing in your shipment data suggests either.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
   "model": "claude-sonnet-5-5",
   "stop_reason": "end_turn",
   "usage": {
     "input_tokens": 2,
-    "output_tokens": 281,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 3172
+    "output_tokens": 266,
+    "cache_read_input_tokens": 2539,
+    "cache_creation_input_tokens": 632
   },
-  "latency_s": 5.7385758000000004,
+  "latency_s": 5.0077752,
   "source": "cli"
 }

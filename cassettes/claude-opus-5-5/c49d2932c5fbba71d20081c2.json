@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "The reply passes the case to a human agent because of the legal threat (P-8). It correctly says NW1001 was late: it was promised for 2026-11-03 and delivered on 2026-11-05. It also states the P-2 Express credit rule accurately: a 100% credit of the shipping fee, applied to the account within 7 days and not paid in cash."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"The reply passes the case to a human agent because of the legal threat (P-8). It correctly says NW1001 was late: it was promised for 2026-11-03 and delivered on 2026-11-05. It also states the P-2 Express credit rule accurately: a 100% credit of the shipping fee, applied to the account within 7 days and not paid in cash.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 277,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2530
+  },
+  "latency_s": 5.558329600000012,
+  "source": "cli"
+}

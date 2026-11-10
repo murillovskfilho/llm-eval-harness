@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Hi Ben! Our delivery policy doesn't say anything about a student discount, so I can't confirm one exists. I don't want to guess. If you'd like, I can pass this on to a human agent to look into. Is there anything else I can help with, for example your shipments?",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ben! Our delivery policy doesn't say anything about a student discount, so I can't confirm one exists. I don't want to guess. If you'd like, I can pass this on to a human agent to look into. Is there anything else I can help with, for example your shipments?\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 212,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1278
+  },
+  "latency_s": 4.792522900000003,
+  "source": "cli"
+}

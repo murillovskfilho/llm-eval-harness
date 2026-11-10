@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Sorry to hear NW2001 arrived damaged. Here's how a damage claim works:\n\n- **Claim window:** Claims must be opened within 30 days of the promised delivery date (7 Nov 2026), so by 7 Dec 2026.\n- **Photos needed:** Please send photos of the parcel and the packaging, showing the crushed box and the damaged item.\n- **Compensation:** Compensation is the declared value of the parcel. Your declared value for NW2001 is 80 EUR, so that is the amount that applies.\n\nOur system still shows NW2001 as \"held at depot,\" so the status may not have updated yet. Your claim is still valid either way.\n\nPlease open the claim as soon as you can and include the photos.",
+    "cited_sections": [
+      "P-4"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry to hear NW2001 arrived damaged. Here's how a damage claim works:\\n\\n- **Claim window:** Claims must be opened within 30 days of the promised delivery date (7 Nov 2026), so by 7 Dec 2026.\\n- **Photos needed:** Please send photos of the parcel and the packaging, showing the crushed box and the damaged item.\\n- **Compensation:** Compensation is the declared value of the parcel. Your declared value for NW2001 is 80 EUR, so that is the amount that applies.\\n\\nOur system still shows NW2001 as \\\"held at depot,\\\" so the status may not have updated yet. Your claim is still valid either way.\\n\\nPlease open the claim as soon as you can and include the photos.\",\"cited_sections\":[\"P-4\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 1052,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1324
+  },
+  "latency_s": 7.0425080000000015,
+  "source": "cli"
+}

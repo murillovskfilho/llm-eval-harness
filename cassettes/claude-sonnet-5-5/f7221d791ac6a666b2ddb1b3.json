@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, I can see NW1004 (Standard, in transit to Coimbra). Our policy doesn't cover refunds of the shipping fee when you change your mind, so I can't promise one. I've passed your request to a human agent, who will decide and get back to you. If you only need to change where it goes, that's free until the parcel is \"Out for delivery\". It can't be changed to a different country.",
+    "cited_sections": [
+      "P-5",
+      "P-8"
+    ],
+    "covered_by_policy": false,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"Hi Ana, I can see NW1004 (Standard, in transit to Coimbra). Our policy doesn't cover refunds of the shipping fee when you change your mind, so I can't promise one. I've passed your request to a human agent, who will decide and get back to you. If you only need to change where it goes, that's free until the parcel is \\\"Out for delivery\\\". It can't be changed to a different country.\",\"cited_sections\":[\"P-5\",\"P-8\"],\"covered_by_policy\":false,\"escalate\":true}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 379,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1378
+  },
+  "latency_s": 5.892861099999995,
+  "source": "cli"
+}

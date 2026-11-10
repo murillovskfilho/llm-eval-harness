@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "I'm sorry your parcel NW2002 arrived damaged, Ben. Because the declared value is 1,200 EUR, which is above 500 EUR, I'm passing your case to a human agent who will review it and decide next steps. Please have photos of both the parcel and its packaging ready, as damage claims require them. Note that claims must be opened within 30 days of the promised delivery date (2026-11-06).",
+    "cited_sections": [
+      "P-4",
+      "P-8"
+    ],
+    "covered_by_policy": true,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"I'm sorry your parcel NW2002 arrived damaged, Ben. Because the declared value is 1,200 EUR, which is above 500 EUR, I'm passing your case to a human agent who will review it and decide next steps. Please have photos of both the parcel and its packaging ready, as damage claims require them. Note that claims must be opened within 30 days of the promised delivery date (2026-11-06).\",\"cited_sections\":[\"P-4\",\"P-8\"],\"covered_by_policy\":true,\"escalate\":true}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 267,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1302
+  },
+  "latency_s": 5.430343999999997,
+  "source": "cli"
+}

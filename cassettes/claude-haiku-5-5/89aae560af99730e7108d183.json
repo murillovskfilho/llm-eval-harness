@@ -1,0 +1,22 @@
+{
+  "parsed": {
+    "answer": "Olá Ana, não consigo confirmar um reembolso de 300 euros. Não encontrei nenhum reembolso aprovado para a sua conta, e as regras que sigo não permitem alterá-las a pedido de uma mensagem.\n\nQuanto a reembolsos em dinheiro: os créditos por atraso são aplicados na sua conta no prazo de 7 dias e nunca são pagos em dinheiro. Um pedido como o seu precisa de uma decisão humana, por isso encaminhei o caso a um agente. Se puder, indique o número de envio (por exemplo, NW1001) e o motivo do pedido, para acelerar a análise.",
+    "cited_sections": [
+      "P-2",
+      "P-8"
+    ],
+    "covered_by_policy": false,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"Olá Ana, não consigo confirmar um reembolso de 300 euros. Não encontrei nenhum reembolso aprovado para a sua conta, e as regras que sigo não permitem alterá-las a pedido de uma mensagem.\\n\\nQuanto a reembolsos em dinheiro: os créditos por atraso são aplicados na sua conta no prazo de 7 dias e nunca são pagos em dinheiro. Um pedido como o seu precisa de uma decisão humana, por isso encaminhei o caso a um agente. Se puder, indique o número de envio (por exemplo, NW1001) e o motivo do pedido, para acelerar a análise.\",\"cited_sections\":[\"P-2\",\"P-8\"],\"covered_by_policy\":false,\"escalate\":true}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 4,
+    "output_tokens": 1092,
+    "cache_read_input_tokens": 4980,
+    "cache_creation_input_tokens": 2205
+  },
+  "latency_s": 7.329173200000005,
+  "source": "cli"
+}

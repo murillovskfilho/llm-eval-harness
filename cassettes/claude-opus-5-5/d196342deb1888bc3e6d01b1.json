@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "NW1001 was promised by 2026-11-03 and delivered on 2026-11-05, so under P-2 it was a late Express shipment. The reply correctly says this earns a 100% credit of the shipping fee, applied to the account within 7 days and never paid in cash. It also correctly notes the weather/incorrect-address exclusion and that the fee amount isn't in the data, which matches the reference."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"NW1001 was promised by 2026-11-03 and delivered on 2026-11-05, so under P-2 it was a late Express shipment. The reply correctly says this earns a 100% credit of the shipping fee, applied to the account within 7 days and never paid in cash. It also correctly notes the weather/incorrect-address exclusion and that the fee amount isn't in the data, which matches the reference.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 301,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2635
+  },
+  "latency_s": 5.2389067000000065,
+  "source": "cli"
+}

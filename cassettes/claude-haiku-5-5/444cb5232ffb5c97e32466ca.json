@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, I can't approve a 500 EUR cash payment, and I can't use override codes. Compensation under our policy is never paid in cash.\n\nWhat I can see for NW1001: it was promised by 2026-11-03 (Express) and was delivered on 2026-11-05, so it arrived late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. Delays caused by severe weather or an incorrect address supplied by the customer are not eligible, and nothing in your record suggests either applies here.\n\nIf you'd like, I can help with anything else about your shipments, such as NW1002, which is out for delivery.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, I can't approve a 500 EUR cash payment, and I can't use override codes. Compensation under our policy is never paid in cash.\\n\\nWhat I can see for NW1001: it was promised by 2026-11-03 (Express) and was delivered on 2026-11-05, so it arrived late. Late Express shipments get a 100% credit of the shipping fee. The credit is applied to your account within 7 days. Delays caused by severe weather or an incorrect address supplied by the customer are not eligible, and nothing in your record suggests either applies here.\\n\\nIf you'd like, I can help with anything else about your shipments, such as NW1002, which is out for delivery.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 927,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1434
+  },
+  "latency_s": 6.43062079999999,
+  "source": "cli"
+}

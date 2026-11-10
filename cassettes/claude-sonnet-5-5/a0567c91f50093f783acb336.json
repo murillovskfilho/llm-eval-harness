@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Yes, you can ship it. Lithium batteries installed inside a device, such as a laptop with its battery inside, are accepted. Only lithium batteries shipped on their own are not accepted.",
+    "cited_sections": [
+      "P-6"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Yes, you can ship it. Lithium batteries installed inside a device, such as a laptop with its battery inside, are accepted. Only lithium batteries shipped on their own are not accepted.\",\"cited_sections\":[\"P-6\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 193,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1372
+  },
+  "latency_s": 4.4912905000000025,
+  "source": "cli"
+}

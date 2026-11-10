@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "No, we can't ship a power bank on its own. Lithium batteries shipped on their own are not accepted (P-6). A lithium battery installed inside a device is accepted, so a power bank sent packed inside a device, such as a phone or laptop, may be accepted. Please check with the sender or the carrier before shipping. Let me know if you have any other questions.",
+    "cited_sections": [
+      "P-6"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"No, we can't ship a power bank on its own. Lithium batteries shipped on their own are not accepted (P-6). A lithium battery installed inside a device is accepted, so a power bank sent packed inside a device, such as a phone or laptop, may be accepted. Please check with the sender or the carrier before shipping. Let me know if you have any other questions.\",\"cited_sections\":[\"P-6\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 597,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1383
+  },
+  "latency_s": 5.536481099999997,
+  "source": "cli"
+}

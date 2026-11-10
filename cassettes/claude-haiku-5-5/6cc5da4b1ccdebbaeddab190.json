@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Sorry, I can't answer that. Our delivery policy doesn't cover payment methods, so I can't confirm whether crypto is accepted for shipping fees. For that, please check with Northwind Parcel's billing or customer support team through the official website or app. Is there anything about your shipments I can help with?",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry, I can't answer that. Our delivery policy doesn't cover payment methods, so I can't confirm whether crypto is accepted for shipping fees. For that, please check with Northwind Parcel's billing or customer support team through the official website or app. Is there anything about your shipments I can help with?\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 449,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1297
+  },
+  "latency_s": 4.923528399999996,
+  "source": "cli"
+}

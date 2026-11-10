@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Unfortunately not. NW1002 is already \"Out for delivery\", and the address can't be changed after that point. If you don't want the parcel delivered to that address, you can refuse it when it arrives.",
+    "cited_sections": [
+      "P-5"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Unfortunately not. NW1002 is already \\\"Out for delivery\\\", and the address can't be changed after that point. If you don't want the parcel delivered to that address, you can refuse it when it arrives.\",\"cited_sections\":[\"P-5\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 194,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1363
+  },
+  "latency_s": 5.9629928,
+  "source": "cli"
+}

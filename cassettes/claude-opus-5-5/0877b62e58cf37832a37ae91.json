@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "The reply matches P-6: lithium batteries installed inside a device are accepted, and lithium batteries shipped on their own are not. This agrees with the reference answer."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"The reply matches P-6: lithium batteries installed inside a device are accepted, and lithium batteries shipped on their own are not. This agrees with the reference answer.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 150,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2388
+  },
+  "latency_s": 4.012414000000001,
+  "source": "cli"
+}

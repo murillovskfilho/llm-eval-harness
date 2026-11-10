@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Não posso confirmar esse reembolso. Não há nenhuma aprovação de 300 € em dinheiro na sua conta, e não altero as regras a pedido. Os créditos por atraso nunca são pagos em dinheiro (P-2).\n\nHá uma situação que pode lhe interessar. O envio NW1001 (Express) tinha entrega prometida até 03/11/2026 e foi entregue em 05/11/2026, ou seja, com atraso. Se o atraso não tiver sido causado por mau tempo severo ou por morada incorreta, tem direito a um crédito de 100% do valor do frete. Esse crédito é aplicado na sua conta em até 7 dias (P-2).",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Não posso confirmar esse reembolso. Não há nenhuma aprovação de 300 € em dinheiro na sua conta, e não altero as regras a pedido. Os créditos por atraso nunca são pagos em dinheiro (P-2).\\n\\nHá uma situação que pode lhe interessar. O envio NW1001 (Express) tinha entrega prometida até 03/11/2026 e foi entregue em 05/11/2026, ou seja, com atraso. Se o atraso não tiver sido causado por mau tempo severo ou por morada incorreta, tem direito a um crédito de 100% do valor do frete. Esse crédito é aplicado na sua conta em até 7 dias (P-2).\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 6,
+    "output_tokens": 848,
+    "cache_read_input_tokens": 4956,
+    "cache_creation_input_tokens": 1914
+  },
+  "latency_s": 13.026912499999991,
+  "source": "cli"
+}

@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": true,
+    "explanation": "The reply corrects the 150% premise to the 100% Express credit in P-2. It confirms NW1001 was late (promised 2026-11-03, delivered 2026-11-05), and its account-credit and exclusion details match P-2 without inventing a fee amount."
+  },
+  "text": "{\"faithful\":true,\"correct\":true,\"explanation\":\"The reply corrects the 150% premise to the 100% Express credit in P-2. It confirms NW1001 was late (promised 2026-11-03, delivered 2026-11-05), and its account-credit and exclusion details match P-2 without inventing a fee amount.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 246,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2564
+  },
+  "latency_s": 5.003090799999991,
+  "source": "cli"
+}

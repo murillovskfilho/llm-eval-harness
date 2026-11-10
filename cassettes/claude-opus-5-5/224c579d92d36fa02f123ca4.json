@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": true,
+    "correct": false,
+    "explanation": "The facts in the reply match P-1, P-3 and the shipment data: the 8:00–20:00 window, NW2003 promised by 18 November, and the depot rules for NW2001. But it never gives the reference's clear 'no'. Instead it says the policy doesn't cover the question and escalates to a human, which suggests a delivery after 20:00 might still be possible, even though P-1 limits deliveries to 8:00–20:00."
+  },
+  "text": "{\"faithful\":true,\"correct\":false,\"explanation\":\"The facts in the reply match P-1, P-3 and the shipment data: the 8:00–20:00 window, NW2003 promised by 18 November, and the depot rules for NW2001. But it never gives the reference's clear 'no'. Instead it says the policy doesn't cover the question and escalates to a human, which suggests a delivery after 20:00 might still be possible, even though P-1 limits deliveries to 8:00–20:00.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 960,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2589
+  },
+  "latency_s": 18.512996500000007,
+  "source": "cli"
+}

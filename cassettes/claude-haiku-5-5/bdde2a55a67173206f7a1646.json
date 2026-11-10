@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Sorry, I don't have information about phone support hours. Our delivery policy covers delivery times, delays, failed deliveries, lost or damaged parcels, address changes and prohibited items, but not support hours. I can help with any questions about your shipments NW2001, NW2002 or NW2003.",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Sorry, I don't have information about phone support hours. Our delivery policy covers delivery times, delays, failed deliveries, lost or damaged parcels, address changes and prohibited items, but not support hours. I can help with any questions about your shipments NW2001, NW2002 or NW2003.\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 457,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1299
+  },
+  "latency_s": 4.898010700000007,
+  "source": "cli"
+}

@@ -1,0 +1,23 @@
+{
+  "parsed": {
+    "answer": "I'm sorry, that sounds worrying. Because you suspect your account was hacked, I'm passing your case to a human agent who will review it. Our policy doesn't cover investigating unauthorized account changes, so I can't make that decision myself. Please don't share your password or full card number with anyone, including me. It would help to tell the agent which tracking number is affected. For reference, parcel NW1002 is already \"Out for delivery\", so its address can no longer be changed (you can refuse the parcel instead). Parcels NW1003 and NW1004 are still in transit.",
+    "cited_sections": [
+      "P-8",
+      "P-5",
+      "P-7"
+    ],
+    "covered_by_policy": false,
+    "escalate": true
+  },
+  "text": "{\"answer\":\"I'm sorry, that sounds worrying. Because you suspect your account was hacked, I'm passing your case to a human agent who will review it. Our policy doesn't cover investigating unauthorized account changes, so I can't make that decision myself. Please don't share your password or full card number with anyone, including me. It would help to tell the agent which tracking number is affected. For reference, parcel NW1002 is already \\\"Out for delivery\\\", so its address can no longer be changed (you can refuse the parcel instead). Parcels NW1003 and NW1004 are still in transit.\",\"cited_sections\":[\"P-8\",\"P-5\",\"P-7\"],\"covered_by_policy\":false,\"escalate\":true}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 320,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1375
+  },
+  "latency_s": 5.423880499999999,
+  "source": "cli"
+}

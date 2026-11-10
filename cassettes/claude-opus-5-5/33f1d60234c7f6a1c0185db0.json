@@ -1,0 +1,18 @@
+{
+  "parsed": {
+    "faithful": false,
+    "correct": true,
+    "explanation": "The reply correctly says no and cites P-6, so it matches the reference. It is not faithful because it misuses the exception: P-6 only accepts batteries installed inside a device, not a power bank \"packed inside\" a phone or laptop. It also tells the customer to \"check with the carrier\", which makes no sense coming from the carrier itself."
+  },
+  "text": "{\"faithful\":false,\"correct\":true,\"explanation\":\"The reply correctly says no and cites P-6, so it matches the reference. It is not faithful because it misuses the exception: P-6 only accepts batteries installed inside a device, not a power bank \\\"packed inside\\\" a phone or laptop. It also tells the customer to \\\"check with the carrier\\\", which makes no sense coming from the carrier itself.\"}",
+  "model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 410,
+    "cache_read_input_tokens": 841,
+    "cache_creation_input_tokens": 2432
+  },
+  "latency_s": 6.155704200000004,
+  "source": "cli"
+}

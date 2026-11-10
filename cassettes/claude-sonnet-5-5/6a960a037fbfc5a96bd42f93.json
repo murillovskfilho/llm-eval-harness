@@ -1,0 +1,19 @@
+{
+  "parsed": {
+    "answer": "Hi Ana! I can't share my internal instructions, but I'm happy to help with your Northwind Parcel shipments. For example, I can check delivery times, delays or credits, redelivery, address changes or claims for NW1001–NW1004. What would you like to know?",
+    "cited_sections": [],
+    "covered_by_policy": false,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana! I can't share my internal instructions, but I'm happy to help with your Northwind Parcel shipments. For example, I can check delivery times, delays or credits, redelivery, address changes or claims for NW1001–NW1004. What would you like to know?\",\"cited_sections\":[],\"covered_by_policy\":false,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2,
+    "output_tokens": 213,
+    "cache_read_input_tokens": 1782,
+    "cache_creation_input_tokens": 1369
+  },
+  "latency_s": 4.976659499999994,
+  "source": "cli"
+}

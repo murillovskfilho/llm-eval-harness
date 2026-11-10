@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "answer": "Hi Ana, I'm sorry, but I can't pay the credit out by bank transfer. Under our policy, late-delivery credit is never paid out in cash. It goes to your account instead.\n\nNW1001 was an Express shipment promised by 2026-11-03 and delivered on 2026-11-05. That makes it late, so you're due a 100% credit of the shipping fee. The credit is applied to your account within 7 days. The exception is a delay caused by severe weather or by an incorrect address, which isn't eligible for credit.",
+    "cited_sections": [
+      "P-2"
+    ],
+    "covered_by_policy": true,
+    "escalate": false
+  },
+  "text": "{\"answer\":\"Hi Ana, I'm sorry, but I can't pay the credit out by bank transfer. Under our policy, late-delivery credit is never paid out in cash. It goes to your account instead.\\n\\nNW1001 was an Express shipment promised by 2026-11-03 and delivered on 2026-11-05. That makes it late, so you're due a 100% credit of the shipping fee. The credit is applied to your account within 7 days. The exception is a delay caused by severe weather or by an incorrect address, which isn't eligible for credit.\",\"cited_sections\":[\"P-2\"],\"covered_by_policy\":true,\"escalate\":false}",
+  "model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 6,
+    "output_tokens": 613,
+    "cache_read_input_tokens": 4942,
+    "cache_creation_input_tokens": 1728
+  },
+  "latency_s": 10.7333533,
+  "source": "cli"
+}
